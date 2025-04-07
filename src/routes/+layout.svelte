@@ -13,9 +13,11 @@
 	</main>
 
 	<footer>
-		<p>
-			visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to learn about SvelteKit
-		</p>
+		<a
+			href="https://farsi.khamenei.ir/message-content?id=59757"
+			target="_blank"
+			rel="noopener noreferrer">سال سرمایه‌گذاری برای تولید</a
+		>
 	</footer>
 </div>
 
