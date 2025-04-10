@@ -10,7 +10,7 @@
 </svelte:head>
 
 <section dir="rtl">
-	<h1>خدمات برنامه‌نویسی و آموزشی آئین‌پرست</h1>
+	<h1>خدمات برنامه‌نویسی و آموزشی اولدوان</h1>
 
 	<h2 class="!text-3xl">خدمات من:</h2>
 	<div class="flex flex-col gap-4 mt-8">
