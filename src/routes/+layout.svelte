@@ -3,6 +3,14 @@
 	import '../app.css';
 
 	let { children } = $props();
+
+	function openPopup() {
+		window.open(
+			'https://logo.samandehi.ir/Verify.aspx?id=375855&p=xlaojyoedshwmcsidshwdshw',
+			'Popup',
+			'toolbar=no,scrollbars=no,location=no,statusbar=no,menubar=no,resizable=0,width=450,height=630,top=30'
+		);
+	}
 </script>
 
 <div class="app">
@@ -13,14 +21,13 @@
 	</main>
 
 	<footer>
-		<img
-			referrerpolicy="origin"
-			id="rgvjjzpeapfuoeukapfuapfu"
-			style="cursor:pointer"
-			onclick="window.open("https://logo.samandehi.ir/Verify.aspx?id=375855&p=xlaojyoedshwmcsidshwdshw", "Popup","toolbar=no, scrollbars=no, location=no, statusbar=no, menubar=no, resizable=0, width=450, height=630, top=30")"
-			alt="logo-samandehi"
-			src="https://logo.samandehi.ir/logo.aspx?id=375855&p=qftiyndtujynaqgwujynujyn"
-		/>
+		<button on:click={openPopup} class="logo-button">
+			<img
+				referrerpolicy="origin"
+				alt="logo-samandehi"
+				src="https://logo.samandehi.ir/logo.aspx?id=375855&p=qftiyndtujynaqgwujynujyn"
+			/>
+		</button>
 		<a
 			href="https://farsi.khamenei.ir/message-content?id=59757"
 			target="_blank"
@@ -63,5 +70,12 @@
 		footer {
 			padding: 12px 0;
 		}
+	}
+
+	.logo-button {
+		background: none;
+		border: none;
+		padding: 0;
+		cursor: pointer;
 	}
 </style>
