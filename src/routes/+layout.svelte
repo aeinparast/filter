@@ -28,11 +28,7 @@
 				src="https://logo.samandehi.ir/logo.aspx?id=375855&p=qftiyndtujynaqgwujynujyn"
 			/>
 		</button>
-		<a
-			href="https://farsi.khamenei.ir/message-content?id=59757"
-			target="_blank"
-			rel="noopener noreferrer">سال سرمایه‌گذاری برای تولید</a
-		>
+
 	</footer>
 </div>
 
